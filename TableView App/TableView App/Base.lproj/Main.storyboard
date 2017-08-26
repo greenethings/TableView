@@ -90,17 +90,17 @@
                     <navigationItem key="navigationItem" title="Formulator" id="nXk-Uq-hIF"/>
                     <connections>
                         <outlet property="categoryTable" destination="rjP-9e-scA" id="bdf-CT-8Am"/>
-                        <segue destination="yS5-x9-dNg" kind="show" id="iwS-gg-hVl"/>
+                        <segue destination="yS5-x9-dNg" kind="show" identifier="ProductsVC" id="iwS-gg-hVl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="456.80000000000001" y="123.68815592203899"/>
         </scene>
-        <!--View Controller-->
+        <!--ProductsVC-->
         <scene sceneID="Df0-3o-Ayo">
             <objects>
-                <viewController id="yS5-x9-dNg" sceneMemberID="viewController">
+                <viewController id="yS5-x9-dNg" customClass="ProductsVC" customModule="TableView_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="U99-Gd-6Kw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -125,7 +125,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="YES" id="pcT-mB-CCx" customClass="ProductCell" customModule="TableView_App" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="YES" reuseIdentifier="ProductCell" id="pcT-mB-CCx" customClass="ProductCell" customModule="TableView_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="154" height="204"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -188,6 +188,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="09L-d0-9H4"/>
                     </view>
+                    <connections>
+                        <outlet property="productsCollection" destination="9YI-hC-2ge" id="jKB-B9-xcG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GX0-kG-2a4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

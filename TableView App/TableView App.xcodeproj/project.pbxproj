@@ -18,6 +18,7 @@
 		E2CF7CD31F49DA3E00962F1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CF7CD11F49DA3E00962F1D /* LaunchScreen.storyboard */; };
 		E2CF7CDE1F49DA3E00962F1D /* TableView_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF7CDD1F49DA3E00962F1D /* TableView_AppTests.swift */; };
 		E2CF7CED1F4A2E5600962F1D /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF7CEC1F4A2E5600962F1D /* CategoryCell.swift */; };
+		E2E6A2DE1F5225AF0077EAE8 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E6A2DD1F5225AF0077EAE8 /* ProductsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		E2CF7CDD1F49DA3E00962F1D /* TableView_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView_AppTests.swift; sourceTree = "<group>"; };
 		E2CF7CDF1F49DA3E00962F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2CF7CEC1F4A2E5600962F1D /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		E2E6A2DD1F5225AF0077EAE8 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				E2CF7CCA1F49DA3E00962F1D /* CatergoriesVC.swift */,
+				E2E6A2DD1F5225AF0077EAE8 /* ProductsVC.swift */,
 			);
 			path = Contoller;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E6A2DE1F5225AF0077EAE8 /* ProductsVC.swift in Sources */,
 				E2CF7CCB1F49DA3E00962F1D /* CatergoriesVC.swift in Sources */,
 				E2CF7CC91F49DA3E00962F1D /* AppDelegate.swift in Sources */,
 				E2CF7CED1F4A2E5600962F1D /* CategoryCell.swift in Sources */,
