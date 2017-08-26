@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E2447BB61F5137C600B42E90 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2447BB51F5137C600B42E90 /* ProductCell.swift */; };
+		E2447BB81F513C1300B42E90 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2447BB71F513C1300B42E90 /* Product.swift */; };
 		E28EEFB01F4A326900223D32 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28EEFAF1F4A326900223D32 /* Category.swift */; };
 		E28EEFB31F4A33EF00223D32 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28EEFB21F4A33EF00223D32 /* DataService.swift */; };
 		E2CF7CC91F49DA3E00962F1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF7CC81F49DA3E00962F1D /* AppDelegate.swift */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		E2447BB51F5137C600B42E90 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		E2447BB71F513C1300B42E90 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		E28EEFAF1F4A326900223D32 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		E28EEFB21F4A33EF00223D32 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		E2CF7CC51F49DA3E00962F1D /* TableView App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				E28EEFAF1F4A326900223D32 /* Category.swift */,
+				E2447BB71F513C1300B42E90 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				E2447BB61F5137C600B42E90 /* ProductCell.swift in Sources */,
 				E28EEFB01F4A326900223D32 /* Category.swift in Sources */,
 				E28EEFB31F4A33EF00223D32 /* DataService.swift in Sources */,
+				E2447BB81F513C1300B42E90 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

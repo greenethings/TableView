@@ -20,6 +20,13 @@ class DataService {
         Category(title: "....", imageName: "hoodies.png")
     ]
     
+    private let perimeter = [
+        Product(title: "Rectangle", price: "$0", imageName: "rectangle_perimeter_2.png"),
+        Product(title: "Square", price: "$0", imageName: "square_perimeter_2.png"),
+        Product(title: "Triangle", price: "$0", imageName: "triangle_perimeter_2.png"),
+        Product(title: "Trapazoid", price: "$0", imageName: "trapazoid_perimeter_2.png")
+    ]
+    
     func getCategories() -> [Category] {
         return categories
     }
