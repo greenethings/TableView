@@ -16,7 +16,7 @@
         </array>
     </customFonts>
     <scenes>
-        <!--SWAG-->
+        <!--Formulator-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="CatergoriesVC" customModule="TableView_App" customModuleProvider="target" sceneMemberID="viewController">
@@ -24,48 +24,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STUDY BY CATERGORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ep8-e8-rdW">
-                                <rect key="frame" x="16" y="30" width="183" height="23.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FORMULA CATEGORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ep8-e8-rdW">
+                                <rect key="frame" x="16" y="30" width="175" height="23.5"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rjP-9e-scA">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rjP-9e-scA">
                                 <rect key="frame" x="0.0" y="70" width="375" height="533"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="161" id="SUJ-3L-WQE" customClass="CategoryCell" customModule="TableView_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="161"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SUJ-3L-WQE" id="Jqq-BE-ceV">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="160.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="SUJ-3L-WQE" id="Jqq-BE-ceV">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="161"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="1gG-yk-a1r">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="1gG-yk-a1r">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="161"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="375" id="k3p-fZ-UIH"/>
                                                         <constraint firstAttribute="height" constant="161" id="rny-3U-YtO"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfO-p5-M11">
-                                                    <rect key="frame" x="110" y="66" width="155" height="30"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfO-p5-M11">
+                                                    <rect key="frame" x="37" y="55" width="300" height="50"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="30" id="DeL-it-meS"/>
-                                                        <constraint firstAttribute="width" constant="155" id="P69-df-Jb4"/>
+                                                        <constraint firstAttribute="height" constant="50" id="DeL-it-meS"/>
+                                                        <constraint firstAttribute="width" constant="300" id="P69-df-Jb4"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="40"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="1gG-yk-a1r" firstAttribute="top" secondItem="Jqq-BE-ceV" secondAttribute="top" id="4ar-ej-yWE"/>
-                                                <constraint firstAttribute="bottom" secondItem="1gG-yk-a1r" secondAttribute="bottom" id="Jmh-45-j6q"/>
+                                                <constraint firstAttribute="bottom" secondItem="1gG-yk-a1r" secondAttribute="bottom" constant="4" id="4XB-Cd-7cx"/>
                                                 <constraint firstAttribute="trailing" secondItem="1gG-yk-a1r" secondAttribute="trailing" id="QFG-L7-ssi"/>
                                                 <constraint firstItem="PfO-p5-M11" firstAttribute="centerY" secondItem="Jqq-BE-ceV" secondAttribute="centerY" id="Wn1-f3-Bcr"/>
                                                 <constraint firstItem="1gG-yk-a1r" firstAttribute="leading" secondItem="Jqq-BE-ceV" secondAttribute="leading" id="a9p-NI-jot"/>
                                                 <constraint firstItem="PfO-p5-M11" firstAttribute="centerX" secondItem="Jqq-BE-ceV" secondAttribute="centerX" id="h62-SL-Y4X"/>
+                                                <constraint firstItem="1gG-yk-a1r" firstAttribute="top" secondItem="Jqq-BE-ceV" secondAttribute="top" constant="4" id="jqK-2f-5Pi"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -87,7 +87,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="SWAG" id="nXk-Uq-hIF"/>
+                    <navigationItem key="navigationItem" title="Formulator" id="nXk-Uq-hIF"/>
                     <connections>
                         <outlet property="categoryTable" destination="rjP-9e-scA" id="bdf-CT-8Am"/>
                         <segue destination="yS5-x9-dNg" kind="show" id="iwS-gg-hVl"/>
